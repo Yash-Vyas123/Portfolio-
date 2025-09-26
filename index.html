@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Yash vyas — Portfolio</title>
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com" />
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-wZ8cK..." crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <!-- Place right after the welcome overlay in <body>, before <header> -->
+<div id="particles-bg" aria-hidden="true"></div>
+
+<!-- Include particles.js near the end of body, before your script.js -->
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+
+
+
+<!-- Welcome Overlay -->
+<div id="welcome-overlay" role="dialog" aria-modal="true" aria-labelledby="welcome-title" aria-describedby="welcome-desc">
+  <div class="welcome-inner">
+    <div class="welcome-logo">Portfolio<span>.</span></div>
+    <h1 id="welcome-title">Welcome to my portfolio</h1>
+    <p id="welcome-desc">Loading experience and assets…</p>
+    <div class="spinner" aria-hidden="true"></div>
+    
+    <!-- Live region for screen readers -->
+    <div id="welcome-status" role="status" aria-live="polite" class="sr-only">Loading…</div>
+  </div>
+</div>
+
+
+
+  
+  <header class="header" id="home">
+    <nav class="nav container">
+      <a href="#home" class="logo">Portfolio<span>.</span></a>
+      <button class="nav-toggle" aria-label="Open menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link btn btn-sm">Contact</a></li>
+      </ul>
+    </nav>
+    <section class="hero container">
+      <div class="hero-text">
+        <h1 class="reveal">Hi, I’m <span class="accent">Yash Vyas</span></h1>
+        <p class="lead reveal">Computer Science student focused on AI/Ml, web development. Building useful, clean, and performant products.</p>
+        <div class="cta reveal">
+          <a href="#projects" class="btn">View Projects</a>
+          <a href="#contact" class="btn btn-outline">Hire Me</a>
+        </div>
+        <div class="social reveal">
+          <a href="https://instagram.com/__yashvyas__" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          <a href="https://www.linkedin.com/in/yash-vyas123"target="_blank" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          <a href="https://twitter.com/yash_vyas830" target="_blank" aria-label="Twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a href="mailto:yashvyasnbh@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/Yash-Vyas123" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        </div>
+      </div>
+      <div class="hero-photo reveal">
+        <div class="avatar">
+          <img src="Images/port-removebg-preview 1.jpg" alt="Profile photo of Yash" />
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section id="about" class="section container">
+      <h2 class="section-title">About</h2>
+      <div class="grid about-grid">
+        <div>
+          <p>Passionate about AI/ML, web, and Tech. Secretary of the college drone society; experienced in building responsive UIs, prototypes, and creative digital assets.</p>
+          <ul class="info-list">
+            <li><span>Name:</span>Yash Vyas</li>
+            <li><span>Age:</span> 20</li>
+            <li><span>Address:</span> Nimbahera, Rajasthan, India</li>
+            <li><span>Email:</span> <a href="mailto:your@email.com">yashvyasnbh@gmail.com</a></li>
+            <li><span>Phone:</span> <a href="tel:+919999999999">+91 8302439864</a></li>
+          </ul>
+        </div>
+        <div class="stats">
+          <div class="stat-card">
+            <span class="stat-num" data-target="15">0</span>
+            <span class="stat-label">Projects</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="8">0</span>
+            <span class="stat-label">Certifications</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num" data-target="3">0</span>
+            <span class="stat-label">Awards</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+    <section id="education" class="section container">
+      <h2 class="section-title">Education</h2>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <span class="time">2023 — Present</span>
+          <h2>Technocrats Institute of Technology, Bhopal(M.P)</h2>
+          <h3>B.Tech, Computer Science(AI & ML)</h3>
+          <p>Focus: Artificial Intelligence, Machine Learning, DSA, Web Development, DBMS, OOPS, Operating System, Computer Architecture. CGPA: 8.7</p>
+        </div>
+        <div class="timeline-item reveal">
+          <span class="time">2018 — 2022</span>
+          <h2>Swami Vivekanand Govt. Modal School, Nimbahera(Raj.)</h2>
+          <h3>Senior Secondary</h3>
+          <p>PCM with CS; participated in robotics and coding competitions. Percentage: 78%</p>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="skills" class="section container">
+  <h2 class="section-title">Skills</h2>
+  <div class="skills-grid">
+    <div class="skills-group">
+      <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+      <div class="skill-bar">
+        <span>Java</span>
+        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>Python</span>
+        <div class="bar"><div class="progress" style="width: 55%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>C++</span>
+        <div class="bar"><div class="progress" style="width: 40%;"></div></div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h3><i class="fa-brands fa-html5"></i> Frontend</h3>
+      <div class="skill-bar">
+        <span>HTML / CSS</span>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>JavaScript</span>
+        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>React</span>
+        <div class="bar"><div class="progress" style="width: 55%;"></div></div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h3><i class="fa-solid fa-server"></i> Backend</h3>
+      <div class="skill-bar">
+        <span>Node.js</span>
+        <div class="bar"><div class="progress" style="width: 60%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>Express.js</span>
+        <div class="bar"><div class="progress" style="width: 65%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>MySQL</span>
+        <div class="bar"><div class="progress" style="width: 70%;"></div></div>
+      </div>
+    </div>
+    <div class="skills-group">
+      <h3><i class="fa-solid fa-toolbox"></i> Tools</h3>
+      <div class="skill-bar">
+        <span>VS Code</span>
+        <div class="bar"><div class="progress" style="width: 85%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>Git & GitHub</span>
+        <div class="bar"><div class="progress" style="width: 80%;"></div></div>
+      </div>
+      <div class="skill-bar">
+        <span>Figma</span>
+        <div class="bar"><div class="progress" style="width: 75%;"></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="projects" class="section container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <article class="card reveal">
+          <div class="media">
+            <!-- Replace with your project demo video -->
+            <video controls poster="Images/Screenshot 2025-09-09 211623.png">
+              <source src="videos/recording 1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>XP Zone - 3D Gaming Website</h3>
+            <p>This project is a modern and interactive gaming landing page designed and developed using HTML, CSS, and JavaScript. 
+              The page showcases a visually striking hero section with bold typography, engaging visuals, and smooth styling. 
+              It features a responsive navigation bar, a highlighted call-to-action button (“Watch Trailer”), and immersive design elements to create a gaming-themed experience.</p>
+            <div class="links">
+              <a class="btn btn-sm" href="https://your-live-demo-link.com" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+              <a class="btn btn-sm btn-outline" href="https://github.com/your_repo" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="card reveal">
+          <div class="media">
+            <video controls poster="Images/Screenshot 2025-09-09 211747.png">
+              <source src="videos/recording 2.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>MOVIEFY – 3D Movie Landing Page</h3>
+            <p>This project is a visually engaging 3D movie landing page designed using HTML, CSS, and JavaScript. 
+               The interface highlights popular movies and anime series, featuring a bold hero section with the hit show Squid Game.
+               The design focuses on immersive visuals and smooth user interaction, enhanced by a dynamic slider showcasing multiple movies and anime titles. 
+              With clear calls-to-action like Download and Watch Trailer, the page is built to provide an intuitive and cinematic browsing experience.</p>
+            <div class="links">
+              <a class="btn btn-sm" href="https://your-live-demo-link.com" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+              <a class="btn btn-sm btn-outline" href="https://github.com/your_repo" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+
+<article class="card reveal">
+          <div class="media">
+            <video controls poster="Images/Screenshot 2025-09-13 141833.png">
+              <source src="videos/recording 3.mp4" type="video/mp4" />
+            </video>
+          </div>
+          <div class="card-body">
+            <h3>Game - Stone, Paper and Scissor</h3>
+            <p>Stone, paper and scissor game built using html, css an js.</p>
+            <div class="links">
+              <a class="btn btn-sm" href="https://your-live-demo-link.com" target="_blank"><i class="fa-solid fa-link"></i> Live</a>
+              <a class="btn btn-sm btn-outline" href="https://github.com/Yash-Vyas123/Stone-Paper-and-Stone-Game" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="achievements" class="section container">
+      <h2 class="section-title">Achievements</h2>
+      <ul class="badge-list">
+        <li class="reveal"><i class="fa-solid fa-trophy"></i> Secretary, College Drone Society</li>
+        <li class="reveal"><i class="fa-solid fa-award"></i> β-MLSA(Microsoft), Global Student Community</li>
+        <li class="reveal"><i class="fa-solid fa-medal"></i> Solved 160 DSA questions on GeeksForGeeks</li>
+      </ul>
+    </section>
+
+    <section id="certifications" class="section container">
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <article class="cert-card reveal">
+          <a href="https://verify-link-1.com" target="_blank" class="cert-media" aria-label="Open certificate">
+            <img src="Images/certificate 1.jpg" alt="Certificate 1" />
+          </a>
+          <div class="cert-body">
+            <h3>Beta-Microsoft Learn Student Ambassador(Microsoft) Certificate</h3>
+            <h4>Issued by: Microsoft</h4>
+            <p>Global Student Community where Student work connect and learn together about Microsoft Products.</p>
+            <a class="btn btn-sm" href="https://www.credly.com/badges/406aba62-9ffd-4e96-8ca5-7824be18632c/public_url" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Credentials</a>
+          </div>
+        </article>
+
+        <article class="cert-card reveal">
+          <a href="https://verify-link-2.com" target="_blank" class="cert-media" aria-label="Open certificate">
+            <img src="Images/certificate 2.png" alt="Certificate 2" />
+          </a>
+          <div class="cert-body">
+            <h3>Artificial Intelligence Fundamentals Certificate</h3>
+            <h4>Issued by: IBM SkillsBuild</h4>
+            <p>Artificial Intelligence Fundamentals course by IBM.</p>
+            <a class="btn btn-sm" href="https://www.credly.com/badges/21f70ce1-5a35-453d-8c4f-deda38c43b96/public_url" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Credentials</a>
+          </div>
+        </article>
+
+        <article class="cert-card reveal">
+          <a href="https://verify-link-2.com" target="_blank" class="cert-media" aria-label="Open certificate">
+            <img src="Images/certificate 3.png" alt="Certificate 3" />
+          </a>
+          <div class="cert-body">
+            <h3>Data Fundamentals Certificate</h3>
+            <h4>Issued by: IBM SkillsBuild</h4>
+            <p>Data Fundamentals Course by IBM.</p>
+            <a class="btn btn-sm" href="https://www.credly.com/badges/0348df73-356b-41dd-8155-6313e15a403c/public_url" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Credentials</a>
+          </div>
+        </article>
+
+        <article class="cert-card reveal">
+          <a href="https://verify-link-2.com" target="_blank" class="cert-media" aria-label="Open certificate">
+            <img src="Images/certificate 4.png" alt="Certificate 4" />
+          </a>
+          <div class="cert-body">
+            <h3>Get Started with Cloud Storage Skill Certificate</h3>
+            <h4>Issued by: Google Cloud</h4>
+            <p>Cloud Storage Skill Course By Google Cloud.</p>
+            <a class="btn btn-sm" href="https://www.credly.com/badges/5937f61e-edc0-4c63-b837-8cde98866868/public_url" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i> View Credentials</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="section container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-grid">
+        <form id="contact-form" class="card reveal">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" placeholder="Your name" required />
+          </div>
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="your@email.com" required />
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Let's collaborate..." required></textarea>
+          </div>
+          <button class="btn" type="submit"></a>Send Message</button>
+          <p class="form-status" aria-live="polite"></p>
+        </form>
+
+        <div class="contact-card card reveal">
+          <h3>Let's connect</h3>
+          <ul class="contact-list">
+            <li><i class="fa-solid fa-location-dot"></i> Bhopal, Madhya Pradesh, India</li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+919999999999">+91 8302439864</a></li>
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:your@email.com">yashvyasnbh@gmail.com</a></li>
+          </ul>
+          <div class="social social-lg">
+  <a class="icon ig" href="https://instagram.com/__yashvyas__" target="_blank" aria-label="Instagram">
+    <i class="fa-brands fa-instagram"></i>
+  </a>
+  <a class="icon li" href="https://www.linkedin.com/in/yash-vyas123" target="_blank" aria-label="LinkedIn">
+    <i class="fa-brands fa-linkedin"></i>
+  </a>
+  <a class="icon xt" href="https://twitter.com/yash_vyas830" target="_blank" aria-label="X">
+    <i class="fa-brands fa-x-twitter"></i>
+  </a>
+  <a class="icon mail" href="mailto:yashvyasnbh@gmail.com" aria-label="Email">
+    <i class="fa-solid fa-envelope"></i>
+  </a>
+  <a class="icon gh" href="https://github.com/Yash-Vyas123" target="_blank" aria-label="GitHub">
+    <i class="fa-brands fa-github"></i>
+  </a>
+</div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <p>Thanks for visiting and happy coding! © <span id="year"></span> Yash Vyas. All rights reserved.</p>
+      <a href="#home" class="to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+
+
+
+
+</html>
